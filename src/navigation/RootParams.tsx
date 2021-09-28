@@ -21,3 +21,6 @@ export type DetailsScreenNavigationProp = DetailsNavigationStackScreenProp['navi
 export type ExploreScreenNavigationProp = ExploreNavigationStackScreenProp['navigation'];
 export type ProfileScreenNavigationProp = ProfileNavigationStackScreenProp['navigation'];
 export type NewsScreenNavigationProp = NewsNavigationStackScreenProp['navigation'];
+
+// here only NativeStackScreenProps is used for all the navigators but each of the different type of navigation has its own type and it is recommended to use suitable type. 
+// NativeStackScreenProps for @react-navigation/stack, DrawerScreenProps from @react-navigation/drawer, BottomTabScreenProps from @react-navigation/bottom-tabs and so on.
